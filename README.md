@@ -4,7 +4,28 @@ A shell script to rotate through wallpaper sets throughout the day a'la MacOS
 
 ## Why
 
-TBD: Justification, features, etc
+I have worked with MacOS for the last 18 months and kinda liked the dynamic wallpapers.
+
+So I went to looking for how to do this with Linux and found fragmented and incomplete solutions.
+
+Some of them depend on xml configs that are irritating to read and edit.
+
+Some of them are based strictly on the time of day, which doesn't cater for the fact that days start and end at different times of year.
+7am in Winter is different to 7am in Summer.  7am in Helsinki is different to 7am in Perth.
+
+Most of them are specific to a particular desktop and/or distribution.
+
+I could do better for my own purposes, so I started coding it.
+
+## Features
+
+* A simple config standard.  You don't need XML for this kind of task.  Come on.
+* Attempts to auto-generate configurations if they don't exist
+* Adjusts to sunrise and sundown throughout the year by scraping weather.com
+
+## Status
+
+About 95% written.  Untested.  I have finite time and motivation.
 
 ## Installation
 
